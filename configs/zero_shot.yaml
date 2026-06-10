@@ -1,0 +1,13 @@
+model_name: "Qwen/Qwen2.5-0.5B-Instruct"
+
+generation:
+  max_new_tokens: 150
+  temperature: 0.0
+  do_sample: false
+
+data:
+  questions_path: "data/questions.json"
+  ground_truth_path: "data/ground_truth.json"
+
+output:
+  path: "results/predict_qwen_zero.csv"

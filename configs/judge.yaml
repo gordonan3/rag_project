@@ -1,0 +1,11 @@
+judge_model: "llama-3.1-8b-instant"
+
+input_file: "results/rag_qwen.csv"
+
+prediction_column: "rag_qwen"
+
+max_retries: 5
+
+sleep_between_requests: 1.5
+
+output_file: "results/judge_rag_qwen.csv"

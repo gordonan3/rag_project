@@ -1,0 +1,7 @@
+input_file: "results/rag_qwen.csv"
+
+ground_truth_column: "ground_truth"
+
+prediction_columns:
+  - "rag_qwen"
+  - "rag_ministral"

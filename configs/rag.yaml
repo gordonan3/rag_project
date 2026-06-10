@@ -1,0 +1,19 @@
+model_name: "Qwen/Qwen2.5-0.5B-Instruct"
+
+embedding_model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+retriever:
+  top_k: 1
+
+generation:
+  max_new_tokens: 150
+  temperature: 0.0
+  do_sample: false
+
+data:
+  articles_path: "data/articles.json"
+  questions_path: "data/questions.json"
+  ground_truth_path: "data/ground_truth.json"
+
+output:
+  path: "results/rag_qwen.csv"
