@@ -23,10 +23,8 @@
 project/
 │
 ├── configs/
-│   ├── zero_shot_qwen.yaml
-│   ├── zero_shot_ministral.yaml
-│   ├── rag_qwen.yaml
-│   ├── rag_ministral.yaml
+│   ├── zero_shot.yaml
+│   ├── rag.yaml
 │   ├── judge.yaml
 │   └── metrics.yaml
 │
