@@ -12,7 +12,7 @@ import yaml
 @click.command()
 @click.option(
     "--config",
-    default="configs/rag_qwen.yaml",
+    default="configs/rag.yaml",
     help="Path to config"
 )
 def main(config):

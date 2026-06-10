@@ -11,7 +11,7 @@ import yaml
 @click.command()
 @click.option(
     "--config",
-    default="configs/rag_qwen.yaml",
+    default="configs/zero_shot.yaml",
     help="Path to config"
 )
 def main(config):
